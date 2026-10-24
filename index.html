@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Karang Taruna Sumberduren</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #0a0a0a;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(135deg, #ff0000, #0000ff);
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      opacity: 0.9;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .card {
+      background: #1a1a1a;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(255,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      display: block;
+    }
+    .card h3 {
+      padding: 15px;
+      text-align: center;
+      font-size: 1rem;
+      background: #111;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      margin-top: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>KARANG TARUNA SUMBERDUREN</h1>
+    <p>Galeri Kegiatan & Kepengurusan 2026</p>
+  </header>
+
+  <div class="gallery">
+    <!-- GANTI SRC DENGAN GAMBAR KAMU -->
+    <div class="card">
+      <img src="img1.jpg" alt="Kegiatan 1">
+      <h3>KARANG TARUNA SUMBERDUREN</h3>
+    </div>
+
+    <div class="card">
+      <img src="img2.jpg" alt="Pengurus">
+      <h3>Profil Pengurus</h3>
+    </div>
+
+    <div class="card">
+      <img src="img3.jpg" alt="17 Agustus">
+      <h3>Lomba 17 Agustus</h3>
+    </div>
+
+    <div class="card">
+      <img src="img4.jpg" alt="Rapat">
+      <h3>Rapat Rutin</h3>
+    </div>
+  </div>
+
+  <footer>
+    © 2026 KARANG TARUNA SUMBERDUREN | @karangtarunasumberduren25
+  </footer>
+
+</body>
+</html>
